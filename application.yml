@@ -10,7 +10,8 @@ spring:
         format_sql: true
         generate_statistics: true
   boot.admin.client:
-    url: 'http://local.srv.ecabsonline.com:1112'
+    #url: 'http://local.srv.ecabsonline.com:1112'
+    url: 'http://localhost:1112'
   redis:
     host: localhost
     port: 6379
